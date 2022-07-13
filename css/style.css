@@ -1,0 +1,315 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: 'Open Sans', sans-serif;
+}
+
+/*=============CABECALHO===========*/
+body {
+  background-color: #000000;
+}
+
+#logo{
+  width: 100px;
+  margin-left: 50px;
+}
+
+.cabecalho {
+  width: 100%;
+  height: 65px;
+  display: flex;
+  align-items: center;
+  flex-direction: row;
+  position: sticky;
+  top: 0px;
+  background: #F90716;
+  z-index: 1;
+}
+
+.cabecalho ul {
+  margin-left: 60%;
+  width: 100%;
+}
+
+.cabecalho ul li {
+  display: inline;
+  margin-right: 20px;
+  width: 100%;
+}
+
+.cabecalho ul li a {
+  text-decoration: none;
+  font-size: 15px;
+  color: rgb(0, 0, 0);
+  border: 3px solid black;
+  border-radius: 50px;
+  padding: 5px;
+  padding-left: 15px;
+  padding-right: 15px;
+  width: 100%;
+}
+
+.cabecalho ul li a:hover {
+  border: 3px solid #ffffff;
+  background-color:#383838;
+  color: #ffffff;
+  transition: 0.5s linear;
+}
+
+/*============CONTEUDO================*/
+
+.presentation {
+  width: 100%;
+  height: 500px;
+  background-image: url(../imagens/banner.jpg);
+  background-position: center;
+  background-size: cover;
+  background-position: top;
+}
+
+#banner {
+  padding: 50px;
+}
+
+#banner h1 {
+  font-size: 50px;
+  font-family: 'Poppins', sans-serif;
+  color: #ffffff;
+}
+
+#banner p {
+  font-family: 'Poppins', sans-serif;
+  color: #ffffff;
+  width: 500px;
+}
+
+.historia {
+  display: flex;
+  flex-direction: row;
+  padding-top: 50px;
+  padding-left: 150px;
+  padding-bottom: 50px;
+  background-color: #383838;
+  text-align: justify;
+  border-left: 5px solid rgb(255, 105, 41);
+}
+
+.historia img {
+  width: 400px;
+  position: absolute;
+  right: 100px;
+}
+
+
+#resumo {
+  width: 500px;
+  border-left: 2px solid rgb(245, 48, 48);
+  padding: 10px;
+}
+
+#resumo h2   {
+  font-family: 'Poppins', sans-serif;
+  color: #000000;
+  margin-bottom: 20px ;
+}
+
+#resumo p {
+  font-family: 'Poppins', sans-serif;
+  color: #ffffff;
+}
+
+.titulos {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  padding-top: 50px;
+  padding-left: 50px;
+  padding-bottom: 20px;
+  background-color:#000000;
+}
+
+.titulos div {
+  width: 800px;
+  background-image: url(../imagens/card_background.jpg);
+  border-radius: 10px;
+  margin-bottom: 30px;
+  padding: 20px;
+}
+
+.titulos img {
+  width: 250px;
+  float: right;
+}
+
+.titulos h3 {
+  font-family: 'Poppins', sans-serif;
+  font-size: 25px;
+  color: #ffffff;
+  width: 250px;
+  border-right: 5px solid red;
+}
+
+.titulos p {
+  display: inline;
+  width: 100px;
+  font-family: 'Poppins', sans-serif;
+} 
+
+aside {
+  position: absolute;
+  width: 32%;
+  right: 20px;
+  text-align: justify;
+  padding: 10px;
+  border-left: 5px solid #002efb;
+}
+
+aside p {
+  color: #ffffff;
+  padding: 10px;
+}
+
+#banner_vertical{
+  width: 400px;
+  position: absolute;
+  width: 32%;
+  right: 20px;
+  top: 1280px;
+  text-align: justify;
+  border-radius: 5px;
+}
+
+.the_best{
+  padding: 50px;
+  background-color: #383838;
+  border-left: 5px solid rgb(242, 255, 0);
+}
+
+.the_best h2 {
+  text-align: center;
+  color: #000000;
+  font-size: 50px;
+  margin-bottom: 20px;
+}
+
+#thebest_content {
+  background-image: url(../imagens/thebest.jpg);
+  background-position:center;
+  background-size: cover;
+  height: 600px;
+  border-radius: 5px;
+  position: relative;
+}
+
+
+#thebest_content p {
+  padding: 20px;
+  color:rgb(255, 105, 41) ;
+  font-family: 'Barlow Condensed', sans-serif;
+  font-size: 30px;
+}
+
+#thebest_content iframe {
+  position: absolute;
+  top: 20px;
+  right: 20px;
+}
+
+.real_madrid {
+  height: 650px;
+  padding: 50px;
+  background-color: #383838;
+  background-image: url(../imagens/realLogo.png);
+  background-repeat: no-repeat;
+  background-size: 500px;
+  background-position: right;
+  position: relative;
+}
+
+.real_madrid h3 {
+  color: #ffffff;
+  font-size: 40px;
+}
+
+.real_madrid h4 {
+  margin-bottom: 20px;
+  color:#ffffff;
+  font-size: 20px;
+}
+
+.real_madrid h5 {
+  color:#ffffff;
+  font-family: 'Poppins', sans-serif;
+  font-size: 20px;
+}
+
+.real_madrid_content {
+  display: inline-block;
+}
+
+.real_madrid_content p {
+  width: 800px;
+  margin-bottom: 10px;
+  text-align: justify;
+  font-family: 'Poppins', sans-serif;
+  color: rgb(150, 150, 150);
+}
+
+#real_madrid_imagem {
+  position: absolute;
+  width: 213px;
+  right: 50px;
+}
+
+.selecao_portugal {
+  background-image: url(../imagens/selecoa_portugal.png);
+  background-repeat: no-repeat;
+  background-position: center;
+  height: 650px;
+  padding: 50px;
+  border-left: 5px solid red;
+  position: relative;
+}
+
+.selecao_portugal h3 {
+  color: #ffffff;
+  font-size: 40px;
+}
+
+.selecao_portugal h4 { 
+    margin-bottom: 20px;
+    color:#ffffff;
+    font-size: 15px;
+}
+
+.selecao_portugal p {
+  color: #ffffff;
+  font-family: 'Poppins', sans-serif;
+  width: 500px;
+  text-align: justify;
+}
+
+#cr7_portugal_imagem {
+  position: absolute;
+  width: 400px;
+  top: 50px;
+  right: 50px;
+}
+
+.rodape {
+  background-color: #383838;
+  padding: 30px;
+  text-align: center;
+  color: #FFFFFF;
+}
+
+.rodape p {
+  font-family: 'Poppins', sans-serif;
+}
+
+.rodape a {
+  text-decoration: none;
+  color: rgb(23, 132, 190);
+  font-family: 'Poppins', sans-serif;
+}
